@@ -63,7 +63,7 @@ var page = {
       page.activeItems();
 
     // VIEWING ACTIVE ITEMS
-    $('.filtering').on('click', '#active', function(event) {
+    $('.filteing').on('click', '#active', function(event) {
       event.preventDefault();
       page.activeTasks();
     });
